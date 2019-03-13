@@ -9,6 +9,7 @@
 
 
 <bean id="myObj" class="com.ssi.Test"/>	
-
+<bean class="com.ssi.ContextStartHandler"/>
+<bean class="com.ssi.ContextStopHandler"/>
 </beans>
 
