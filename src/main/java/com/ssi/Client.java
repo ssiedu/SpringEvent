@@ -10,7 +10,7 @@ public class Client {
 		ConfigurableApplicationContext context=new ClassPathXmlApplicationContext("spring.xml");
 		context.start();
 		Test t=(Test)context.getBean("myObj");
-		t.show();
+		t.show();;
 		context.stop();
 		
 	}
